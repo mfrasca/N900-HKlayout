@@ -375,56 +375,56 @@ xkb_symbols "nordic_base" {
     key <AB03>	{ [	c,		C,		sterling,	sterling	] };
     key <LEFT>	{ [	period,		comma,		comma,		comma		] };
 };
+
 partial hidden alphanumeric_keys
 xkb_symbols "english_base" {
 
     // 1. row
-    key <AD01>	{ [	q,		Q,		1,		F1		] };
-    key <AD02>	{ [	w,		W,		2,		F2		] };
-    key <AD03>	{ [	e,		E,		3,		F3		] };
-    key <AD04>	{ [	r,		R,		4,		F4		] };
-    key <AD05>	{ [	t,		T,		5,		F5		] };
-    key <AD06>	{ [	y,		Y,		6,		F6		] };
-    key <AD07>	{ [	u,		U,		7,		F7		] };
-    key <AD08>	{ [	i,		I,		8,		F8		] };
-    key <AD09>	{ [	o,		O,		9,		F9		] };
-    key <AD10>	{ [	p,		P,		0,		F10		] };
-    key <AB08>	{ [	comma,		semicolon,	equal,		F11		] };
-    key <BKSP>	{ [	BackSpace,	Delete,		Tab,	F12		] };
+    key <AD01>	{ [	q,		Q,		1,		1		] };
+    key <AD02>	{ [	w,		W,		2,		2		] };
+    key <AD03>	{ [	e,		E,		3,		less		] };
+    key <AD04>	{ [	r,		R,		4,		greater		] };
+    key <AD05>	{ [	t,		T,		5,		percent		] };
+    key <AD06>	{ [	y,		Y,		6,		dead_circumflex	] };
+    key <AD07>	{ [	u,		U,		7,		7		] };
+    key <AD08>	{ [	i,		I,		8,		braceleft	] };
+    key <AD09>	{ [	o,		O,		9,		braceright	] };
+    key <AD10>	{ [	p,		P,		0,		dead_ogonek	] };
+    key <AB08>	{ [	comma,		semicolon,	equal,		dead_cedilla	] };
 
     // 2. row
-    key <AC01>	{ [	a,		A,		asterisk,	none		] };
-    key <AC02>	{ [	s,		S,		plus,		none		] };
-    key <AC03>	{ [	d,		D,		numbersign,	degree		] };
-    key <AC04>	{ [	f,		F,		minus,		bracketleft	] };
-    key <AC05>	{ [	g,		G,		underscore,	bracketright	] };
-    key <AC06>	{ [	h,		H,		parenleft,	dead_tilde		] };
-    key <AC07>	{ [	j,		J,		parenright,	braceleft	] };
-    key <AC08>	{ [	k,		K,		ampersand,	braceright	] };
-    key <AC09>	{ [	l,		L,		exclam,		copyright	] };
-    key <AB09>	{ [	period,		colon,		question,	bar		] };
-    key <RTRN>	{ [	KP_Enter,	KP_Enter,	Escape,		Menu		] };
+    key <AC01>	{ [	a,		A,		asterisk,	asterisk	] };
+    key <AC02>	{ [	s,		S,		plus,		plus		] };
+    key <AC03>	{ [	d,		D,		numbersign,	numbersign	] };
+    key <AC04>	{ [	f,		F,		minus,		minus		] };
+    key <AC05>	{ [	g,		G,		underscore,	U007C    	] };
+    key <AC06>	{ [	h,		H,		parenleft,	bracketleft	] };
+    key <AC07>	{ [	j,		J,		parenright,	bracketright	] };
+    key <AC08>	{ [	k,		K,		ampersand,	section 	] };
+    key <AC09>	{ [	l,		L,		exclam,		exclamdown	] };
+    key <AB09>	{ [	period,		colon,		question,	questiondown	] };
+    key <RTRN>  { [	KP_Enter,	KP_Enter,	KP_Enter, 	Escape  	] };
 
     // 3. row
-    key <AB01>	{ [	z,		Z,		sterling,	none		] };
-    key <AB02>	{ [	x,		X,		dollar,		none		] };
-    key <AB03>	{ [	c,		C,		EuroSign,	asciicircum	] };
-    key <AB04>	{ [	v,		V,		slash,		less		] };
-    key <AB05>	{ [	b,		B,		backslash,	greater		] };
-    key <AB06>	{ [	n,		N,		quotedbl,	percent		] };
-    key <AB07>	{ [	m,		M,		apostrophe,	grave		] };
-    key <SPCE>	{ [	space,		space,		at,		at		] };
+    key <AB01>	{ [	z,		Z,		sterling,	sterling	] };
+    key <AB02>	{ [	x,		X,		dollar,		multiply		] };
+    key <AB03>	{ [	c,		C,		EuroSign,	EuroSign	] };
+    key <AB04>	{ [	v,		V,		slash,		dead_acute	] };
+    key <AB05>	{ [	b,		B,		backslash,	dead_grave	] };
+    key <AB06>	{ [	n,		N,		quotedbl,	dead_diaeresis	] };
+    key <AB07>	{ [	m,		M,		apostrophe,	dead_abovedot	] };
+    key <SPCE>	{ [	space,		space,		at,		dead_tilde	] };
 };
 
 partial hidden alphanumeric_keys
 xkb_symbols "common_keys" {
     // all other common keys
 
-//    key <BKSP>	{ [	BackSpace,	Delete,	BackSpace,	Delete	] };
-//    key <TAB>	{ [	Tab		] };
+    key <BKSP>	{ [	BackSpace,	Delete,	BackSpace,	Delete	] };
+    key <TAB>	{ [	Tab		] };
 
     // broken UI spec.
-//    key <RTRN>	{ [	KP_Enter	] };
+    key <RTRN>	{ [	KP_Enter	] };
 
     key <KPEN>	{ [	Return		] };
     key <ESC>	{ [	Escape		] };
@@ -485,8 +485,8 @@ partial hidden alphanumeric_keys
 xkb_symbols "arrows_4btns" {
     // standard arrows mapping
     // normal 2nd level must not be enumerated to allow text selection with Shift key
-    key <UP>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Up,	Page_Up	] };
-    key <LEFT>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Left,	Home	] };
-    key <DOWN>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Down,	Page_Down	] };
-    key <RGHT>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Right,	End	] };
+    key <UP>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Up, Page_Up	] };
+    key <LEFT>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Left, Home	] };
+    key <DOWN>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Down, Page_Down	] };
+    key <RGHT>	{ type[Group1] = "PC_FN_LEVEL2", symbols[Group1] = [	Right, End	] };
 };
