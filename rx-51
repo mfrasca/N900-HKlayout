@@ -386,17 +386,17 @@ xkb_symbols "english_base" {
     key <AD04>	{ [	r,		R,		4,		greater		] };
     key <AD05>	{ [	t,		T,		5,		percent		] };
     key <AD06>	{ [	y,		Y,		6,		dead_circumflex	] };
-    key <AD07>	{ [	u,		U,		7,		7		] };
+    key <AD07>	{ [	u,		U,		7,		dead_belowdot	] };
     key <AD08>	{ [	i,		I,		8,		braceleft	] };
     key <AD09>	{ [	o,		O,		9,		braceright	] };
     key <AD10>	{ [	p,		P,		0,		dead_ogonek	] };
     key <AB08>	{ [	comma,		semicolon,	equal,		dead_cedilla	] };
 
     // 2. row
-    key <AC01>	{ [	a,		A,		asterisk,	asterisk	] };
-    key <AC02>	{ [	s,		S,		plus,		plus		] };
-    key <AC03>	{ [	d,		D,		numbersign,	numbersign	] };
-    key <AC04>	{ [	f,		F,		minus,		minus		] };
+    key <AC01>	{ [	a,		A,		asterisk,	dead_abovering	] };
+    key <AC02>	{ [	s,		S,		plus,		ssharp		] };
+    key <AC03>	{ [	d,		D,		numbersign,	guillemotleft   ] };
+    key <AC04>	{ [	f,		F,		minus,		guillemotright	] };
     key <AC05>	{ [	g,		G,		underscore,	U007C    	] };
     key <AC06>	{ [	h,		H,		parenleft,	bracketleft	] };
     key <AC07>	{ [	j,		J,		parenright,	bracketright	] };
@@ -406,9 +406,9 @@ xkb_symbols "english_base" {
     key <RTRN>  { [	KP_Enter,	KP_Enter,	KP_Enter, 	Escape  	] };
 
     // 3. row
-    key <AB01>	{ [	z,		Z,		sterling,	sterling	] };
-    key <AB02>	{ [	x,		X,		dollar,		multiply		] };
-    key <AB03>	{ [	c,		C,		EuroSign,	EuroSign	] };
+    key <AB01>	{ [	z,		Z,		sterling,	dead_macron	] };
+    key <AB02>	{ [	x,		X,		dollar,		U00A5		] };
+    key <AB03>	{ [	c,		C,		EuroSign,	dead_caron	] };
     key <AB04>	{ [	v,		V,		slash,		dead_acute	] };
     key <AB05>	{ [	b,		B,		backslash,	dead_grave	] };
     key <AB06>	{ [	n,		N,		quotedbl,	dead_diaeresis	] };

@@ -17,18 +17,18 @@ Features include:
 	7. Fn+shift+z/x/a/s is empty.
 	8. other characters showed below:
 	   |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
-	   | Fn+SH | F1 | F2 | F3 | F4 | F5 | F6 | F7 | F8 | F9 | F10| F11| F12 |
+	   | Fn+SH |    |    | <  | >  | %  |(^) |    | {  | }  |(˛) |(¸) | Tab |
 	   | Fn    | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 0  | =  | Tab |
 	   | SHIFT | Q  | W  | E  | R  | T  | Y  | U  | I  | O  | P  | ;  | Del |
 	   |       | q  | w  | e  | r  | t  | y  | u  | i  | o  | p  | ,  | BKSP|
 	   |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
-	   | Fn+SH |none|none| °  | [  | ]  | ~  | {  | }  | ©  | |  | Up | MENU|
-	   | Fn    | *  | +  | #  | -  | _  | (  | )  | &  | !  | ?  |PGup| ESC |
+	   | Fn+SH |(°) | ß  | «  | »  | |  | [  | ]  | §  | ¡  | ¿  | Up | ESC |
+	   | Fn    | *  | +  | #  | -  | _  | (  | )  | &  | !  | ?  |PgUp| RET |
 	   | SHIFT | A  | S  | D  | F  | G  | H  | J  | K  | L  | :  | Up | RET |
 	   |       | a  | s  | d  | f  | g  | h  | j  | k  | l  | .  | Up | RET |
 	   |-------+----+----+----+----+----+----+----+----+----+----+----+-----|
-	   | Fn+SH |none|none| ^  | <  | >  | %  | `  |   @     |Left|Down|Right|
-	   | Fn    | £  | $  | €  | /  | \  | "  | '  |   @     |Home|PGdw| End |
+	   | Fn+SH |(¯) | ¥  |(ˇ) |(´) |(`) |(¨) |(·) |  (~)    |Left|Down|Right|
+	   | Fn    | £  | $  | €  | /  | \  | "  | '  |   @     |Home|PgDw| End |
 	   | SHIFT | Z  | X  | C  | V  | B  | N  | M  |   SPC   |Left|Down|Right|
 	   |       | z  | x  | c  | v  | b  | n  | m  |   SPC   |Left|Down|Right|
 	   |-------+----+----+----+----+----+----+----+---------+----+----+-----| 
